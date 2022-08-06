@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include "Decryptor.h"
-#include "xmalloc.h"
-
-#define malloc xmalloc
+#include "RainWorldStringDecrypt.h"
 
 int main() {
 	char* file = malloc(sizeof(char) * 300);

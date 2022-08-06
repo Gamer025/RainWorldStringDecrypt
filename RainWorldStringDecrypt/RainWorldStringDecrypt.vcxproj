@@ -135,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Decryptor.h" />
+    <ClInclude Include="RainWorldStringDecrypt.h" />
     <ClInclude Include="xmalloc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

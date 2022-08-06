@@ -1,3 +1,3 @@
 #pragma once
 
-char* DecryptFile(char filepath[]);
+void DecryptFile(char filepath[]);

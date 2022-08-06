@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 void* xmalloc(int size)
 {
@@ -7,7 +6,7 @@ void* xmalloc(int size)
 
 	if (!memory)
 	{
-		fputs("memory alloc fails", stderr);
+		perror("memory alloc fails");
 		exit(1);
 	}
 	return memory;
